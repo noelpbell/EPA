@@ -1,0 +1,23 @@
+    1  sudo dnf distro-sync
+    2  sudo dnf install docker-ce
+    3  sudo dnf -y install dnf-plugins-core
+    4  sudo dnf config-manager     --add-repo     https://download.docker.com/linux/fedora/docker-ce.repo
+    5  sudo dnf install docker-ce
+    6  python3
+    7  docker
+    8  gcc
+    9  uptime 
+   10  gitclone 
+   11  gclone https://github.com/noelpbell/EPA.git
+   12  ls
+   13  git clone https://github.com/noelpbell/EPA.git
+   14  ls
+   15  cd EPA
+   16  ls -tal
+   17  pwd
+   18  history
+   19  pwd
+   20  more .history
+   21  ls -tal | more
+   22  ls -tal /.history
+   23  history > history.out
